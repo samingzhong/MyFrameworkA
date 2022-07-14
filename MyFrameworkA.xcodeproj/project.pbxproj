@@ -6,11 +6,29 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		33578B8A28804518009408BD /* Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 33578B8B28804518009408BD /* Build configuration list for PBXAggregateTarget "Aggregate" */;
+			buildPhases = (
+				33578B8E28804524009408BD /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Aggregate;
+			productName = Aggregate;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		33578B5D28804176009408BD /* MyFrameworkA.docc in Sources */ = {isa = PBXBuildFile; fileRef = 33578B5C28804176009408BD /* MyFrameworkA.docc */; };
 		33578B6328804176009408BD /* MyFrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33578B5828804176009408BD /* MyFrameworkA.framework */; };
 		33578B6828804176009408BD /* MyFrameworkATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33578B6728804176009408BD /* MyFrameworkATests.m */; };
 		33578B6928804176009408BD /* MyFrameworkA.h in Headers */ = {isa = PBXBuildFile; fileRef = 33578B5B28804176009408BD /* MyFrameworkA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33578B74288042C5009408BD /* PrivateClassA.h in Headers */ = {isa = PBXBuildFile; fileRef = 33578B72288042C5009408BD /* PrivateClassA.h */; };
+		33578B75288042C5009408BD /* PrivateClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 33578B73288042C5009408BD /* PrivateClassA.m */; };
+		33578B7828804312009408BD /* PublicClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 33578B7628804312009408BD /* PublicClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33578B7928804312009408BD /* PublicClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 33578B7728804312009408BD /* PublicClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +47,24 @@
 		33578B5C28804176009408BD /* MyFrameworkA.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyFrameworkA.docc; sourceTree = "<group>"; };
 		33578B6228804176009408BD /* MyFrameworkATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33578B6728804176009408BD /* MyFrameworkATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFrameworkATests.m; sourceTree = "<group>"; };
+		33578B72288042C5009408BD /* PrivateClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivateClassA.h; sourceTree = "<group>"; };
+		33578B73288042C5009408BD /* PrivateClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateClassA.m; sourceTree = "<group>"; };
+		33578B7628804312009408BD /* PublicClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicClass.h; sourceTree = "<group>"; };
+		33578B7728804312009408BD /* PublicClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicClass.m; sourceTree = "<group>"; };
+		33578B7C28804493009408BD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		33578B7D28804493009408BD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		33578B7E28804493009408BD /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		33578B7F28804493009408BD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		33578B8028804493009408BD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		33578B8128804493009408BD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		33578B8228804493009408BD /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		33578B8328804493009408BD /* AFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		33578B8428804493009408BD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		33578B8528804493009408BD /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		33578B8628804493009408BD /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		33578B8728804493009408BD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		33578B8828804493009408BD /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		33578B8928804493009408BD /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +89,7 @@
 		33578B4E28804176009408BD = {
 			isa = PBXGroup;
 			children = (
+				33578B7B28804493009408BD /* AFNetworking */,
 				33578B5A28804176009408BD /* MyFrameworkA */,
 				33578B6628804176009408BD /* MyFrameworkATests */,
 				33578B5928804176009408BD /* Products */,
@@ -72,6 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				33578B5B28804176009408BD /* MyFrameworkA.h */,
+				33578B7628804312009408BD /* PublicClass.h */,
+				33578B7728804312009408BD /* PublicClass.m */,
+				33578B72288042C5009408BD /* PrivateClassA.h */,
+				33578B73288042C5009408BD /* PrivateClassA.m */,
 				33578B5C28804176009408BD /* MyFrameworkA.docc */,
 			);
 			path = MyFrameworkA;
@@ -85,6 +126,27 @@
 			path = MyFrameworkATests;
 			sourceTree = "<group>";
 		};
+		33578B7B28804493009408BD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				33578B7C28804493009408BD /* AFSecurityPolicy.h */,
+				33578B7D28804493009408BD /* AFNetworkReachabilityManager.h */,
+				33578B7E28804493009408BD /* AFURLSessionManager.h */,
+				33578B7F28804493009408BD /* AFURLRequestSerialization.h */,
+				33578B8028804493009408BD /* AFURLResponseSerialization.m */,
+				33578B8128804493009408BD /* AFHTTPSessionManager.m */,
+				33578B8228804493009408BD /* AFURLResponseSerialization.h */,
+				33578B8328804493009408BD /* AFURLSessionManager.m */,
+				33578B8428804493009408BD /* AFURLRequestSerialization.m */,
+				33578B8528804493009408BD /* AFNetworking.h */,
+				33578B8628804493009408BD /* AFNetworkReachabilityManager.m */,
+				33578B8728804493009408BD /* AFSecurityPolicy.m */,
+				33578B8828804493009408BD /* AFCompatibilityMacros.h */,
+				33578B8928804493009408BD /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				33578B6928804176009408BD /* MyFrameworkA.h in Headers */,
+				33578B7828804312009408BD /* PublicClass.h in Headers */,
+				33578B74288042C5009408BD /* PrivateClassA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +214,9 @@
 					33578B6128804176009408BD = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					33578B8A28804518009408BD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 33578B5228804176009408BD /* Build configuration list for PBXProject "MyFrameworkA" */;
@@ -167,6 +234,7 @@
 			targets = (
 				33578B5728804176009408BD /* MyFrameworkA */,
 				33578B6128804176009408BD /* MyFrameworkATests */,
+				33578B8A28804518009408BD /* Aggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -188,12 +256,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33578B8E28804524009408BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n#  Script.sh\n#  YourProjectName\n#\n#  Created by 阿喆 on 2021/3/12.\n#\n\n#注意：脚本目录和xxxx.xcodeproj要在同一个目录，如果放到其他目录，请自行修改脚本。\n#要build的target名\ntarget_Name=MyFrameworkA\necho \"target_Name=${target_Name}\"\n\n#工程名\nproject_name=$target_Name\necho \"project_name=${project_name}\"\n\n#打包模式 Debug/Release 默认是Release\ndevelopment_mode=Release\n\n\n#当前脚本文件所在的路径 $(pwd)\nSCRIPT_DIR=$(pwd)\necho \"======脚本路径=${SCRIPT_DIR}======\"\n\n#工程路径\n#PROJECT_DIR=${SCRIPT_DIR} 和下面写法也样\nPROJECT_DIR=$SCRIPT_DIR\necho \"======工程路径=${PROJECT_DIR}======\"\n\n#build之后的文件夹路径\nbuild_DIR=$SCRIPT_DIR/Build\necho \"======Build路径=${build_DIR}======\"\n\n#真机build生成的头文件的文件夹路径\nDEVICE_DIR_INCLUDE=${build_DIR}/${development_mode}-iphoneos/include/${project_name}\n\n\n\n#真机build生成的.a文件路径\nDEVICE_DIR_A=${build_DIR}/${development_mode}-iphoneos/lib${project_name}.a\necho \"======真机.a路径=${DEVICE_DIR_A}======\"\n\n#模拟器build生成的.a文件路径\nSIMULATOR_DIR_A=${build_DIR}/${development_mode}-iphonesimulator/lib${project_name}.a\necho \"======模拟器.a路径=${SIMULATOR_DIR_A}======\"\n\n\n#目标文件夹路径（也就SDK的文件：.a文件 和 头文件）\nINSTALL_DIR=${build_DIR}/Products/${project_name}\necho \"======SDK的文件夹路径=${INSTALL_DIR}======\"\n\n#目标头文件的文件夹路径\nINSTALL_DIR_Headers=${build_DIR}/Products/${project_name}/Headers\necho \"======头文件的文件夹路径=${INSTALL_DIR}======\"\n\n#目标.a路径\nINSTALL_DIR_A=${build_DIR}/Products/${project_name}/lib${project_name}.a\necho \"======目标.a路径=${INSTALL_DIR}======\"\n\n\n#判断build文件夹是否存在，存在则删除\n#rm -rf 命令的功能:删除一个目录中的一个或多个文件或目录\nif [ -d \"${build_DIR}\" ]\nthen\nrm -rf \"${build_DIR}\"\nfi\n\n\n#判断目标文件夹是否存在，存在则删除该文件夹\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n#创建目标文件夹\nmkdir -p \"${INSTALL_DIR}\"\n\n\n\necho \"======盒子已经准备好了，开始生产.a 并合成装到盒子里吧======\"\n\n#build之前clean一下\nxcodebuild -target ${target_Name} -configuration ${development_mode} -sdk iphonesimulator clean\n\nxcodebuild -target ${target_Name} -configuration ${development_mode} -sdk iphoneos clean\n\n#模拟器build\nxcodebuild -target ${target_Name} -configuration ${development_mode} -sdk iphonesimulator\n\n#真机build\nxcodebuild -target ${target_Name} -configuration ${development_mode} -sdk iphoneos\n\n\n#复制头文件到目标文件夹\n#使用-R参数可实现递归功能，即所有子目录中的文件与目录均拷贝\ncp -R \"${DEVICE_DIR_INCLUDE}\" \"${INSTALL_DIR_Headers}\"\n\n\n#合成模拟器和真机.a包\nlipo -create \"${DEVICE_DIR_A}\" \"${SIMULATOR_DIR_A}\" -output \"${INSTALL_DIR_A}\"\n\necho \"======合成结束======\"\n\n\n\n# -f 判断文件是否存在\nif [ -f \"${INSTALL_DIR_A}\" ]\nthen\necho \"======验证合成包是否成功======\"\nlipo -info \"${INSTALL_DIR_A}\"\nfi\n\n\n#打开目标文件夹\nopen \"${INSTALL_DIR}\"\n\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33578B5428804176009408BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33578B75288042C5009408BD /* PrivateClassA.m in Sources */,
 				33578B5D28804176009408BD /* MyFrameworkA.docc in Sources */,
+				33578B7928804312009408BD /* PublicClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -322,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -337,11 +427,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = V63X5B96WR;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -350,7 +442,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = podTest.MyFrameworkA;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -364,11 +460,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = V63X5B96WR;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -377,7 +475,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = podTest.MyFrameworkA;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -416,6 +518,24 @@
 			};
 			name = Release;
 		};
+		33578B8C28804518009408BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V63X5B96WR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33578B8D28804518009408BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V63X5B96WR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -442,6 +562,15 @@
 			buildConfigurations = (
 				33578B7028804176009408BD /* Debug */,
 				33578B7128804176009408BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33578B8B28804518009408BD /* Build configuration list for PBXAggregateTarget "Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33578B8C28804518009408BD /* Debug */,
+				33578B8D28804518009408BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
